@@ -10,11 +10,25 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
-.i{
-
+.imgg{
+    padding: auto;
+    align-items: flex-start;
 }
 .im{
-    display: inline-flex;
     gap: 1rem;
     margin-bottom: -2rem;
+}
+.catalogo{
+    padding: 25px 25px 25px 25px;
+    background-color: red;
+    margin-top: 25px;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+}
+.nmc{
+    text-align: center;
+}
+#pie{
+    background-color: rgba(213, 237, 133, 0.967);
 }
