@@ -17,25 +17,48 @@
     </header>
 
     <main class="login-section" id="login-section">
-        <h1 class="tn">REGISTRO</h1>
-<hr>
-<div class="f">
-    <p>Ingrese sus nombres</p>
-    <input type="text" [(ngModel)]="nombre">
-    <p>Ingrese sus apellidos</p>
-    <input type="text" [(ngModel)]="apellido">
-    <p>Ingrese su correo</p>
-    <input type="email" [(ngModel)]="correo">
-    <p>Ingrese su contraseña</p>
-    <input type="password" [(ngModel)]="contra">
-    <br>
-    <p>Ingrese su numero de celular:</p>
-    <input type="text" [(ngModel)]="num">
-    <br><br>
-    <button class="botonenviar" (click)="navegacion()" >ENVIAR</button>
-    
-</div>
+        <div>
+            <p id="ingreso">
+                Usuario :
+            </p>
+            <p id="complete" >
+
+            </p>
+            <br>
+            <p id="ingreso">
+                Contraseña :
+            </p>
+            <p id="complete" >
+
+            </p>
+            <button (click)="ingresar()" > INGRESAR</button>
+        </div>
     </main>
 
-   
+    <footer id="pie">
+        <h2 class="rd">Redes Sociales Marcas</h2>
+        <form action="https://instagram.com/olympus.team.ec?igshid=OGQ2MjdiOTE=" class="o">
+            <button>
+                olp
+            </button>
+        </form>
+        <form action="https://instagram.com/youngla?igshid=OGQ2MjdiOTE=
+        " class="y">
+            <button>
+                yg
+            </button>
+        </form>
+        <form action="https://instagram.com/gymshark?igshid=OGQ2MjdiOTE=" class="g">
+            <button>
+                gs
+            </button>
+        </form>
+        <form action="https://instagram.com/getrawnutrition?igshid=OGQ2MjdiOTE=" class="r">
+            <button>
+                raw
+            </button>
+        </form>
+        <form action="https://instagram.com/getrawnutrition?igshid=OGQ2MjdiOTE=" class="r">
+        </form>
+    </footer>
 </body>
