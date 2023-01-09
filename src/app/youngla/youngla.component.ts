@@ -27,6 +27,10 @@ export class YounglaComponent implements OnInit {
   goolp(){
     this.router.navigate(['olp'])
   }
+  
+  pagar(){
+    this.router.navigate(['f'])
+  }
 
 
 }

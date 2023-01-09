@@ -1,20 +1,41 @@
 <body class="pp">
-    <section id="login-section">
-        <div>
-            <p id="ingreso">
-                Usuario :
-            </p>
-            <p id="complete" >
-
-            </p>
-            <br>
-            <p id="ingreso">
-                Contraseña :
-            </p>
-            <p id="complete" >
-
-            </p>
-            <button (click)="ingresar()" > INGRESAR</button>
+    
+    <header class="cabecera">
+        <h1 id="hprincipal">GYM FIT</h1>
+        <div  id="logos" style="display: inline-block; ">
+            <img src="./assets/gs.png" >
         </div>
-    </section>
+        <div  id="logos" style="display: inline-block;">
+            <img src="./assets/olp.png" >
+        </div>
+        <div id="logos" style="display: inline-block;" >
+            <img src="./assets/raw.png" >
+        </div>
+        <div  id="logos" style="display: inline-block;">
+            <img src="./assets/yg.png" >
+        </div>
+    </header>
+
+    <main class="login-section" id="login-section">
+        <h1 class="tn">REGISTRO</h1>
+<hr>
+<div class="f">
+    <p>Ingrese sus nombres</p>
+    <input type="text" [(ngModel)]="nombre">
+    <p>Ingrese sus apellidos</p>
+    <input type="text" [(ngModel)]="apellido">
+    <p>Ingrese su correo</p>
+    <input type="email" [(ngModel)]="correo">
+    <p>Ingrese su contraseña</p>
+    <input type="password" [(ngModel)]="contra">
+    <br>
+    <p>Ingrese su numero de celular:</p>
+    <input type="text" [(ngModel)]="num">
+    <br><br>
+    <button class="botonenviar" (click)="navegacion()" >ENVIAR</button>
+    
+</div>
+    </main>
+
+   
 </body>

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FacturaComponent } from './factura/factura.component';
 import { GymsharkComponent } from './gymshark/gymshark.component';
 import { LoginComponent } from './login/login.component';
 import { OlympusComponent } from './olympus/olympus.component';
@@ -25,6 +26,9 @@ const routes: Routes = [
 },
 {
   path:'yg',component: YounglaComponent
+},
+{
+  path:'f',component:FacturaComponent
 }
 ];
   

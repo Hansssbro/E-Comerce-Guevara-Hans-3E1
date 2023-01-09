@@ -29,4 +29,7 @@ export class OlympusComponent implements OnInit {
     this.router.navigate(['yg'])
   }
 
+  pagar(){
+    this.router.navigate(['f'])
+  }
 }

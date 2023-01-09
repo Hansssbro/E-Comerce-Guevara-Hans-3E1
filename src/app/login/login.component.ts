@@ -10,10 +10,24 @@ export class LoginComponent implements OnInit {
 
   constructor(private router: Router) { }
 
-  ngOnInit(): void {
-  }
+  nombre: any
+  apellido: any
+  contra: any
+  correo: any
+  num:any
 
-  ingresar(){
-    this.router.navigate(['pr'])
+  ngOnInit(): void {
+    localStorage.clear()
   }
+  almacenar(){
+    localStorage.setItem('nombre',this.nombre)
+    localStorage.setItem('apellido',this.apellido)
+    localStorage.setItem('contra',this.contra)
+    localStorage.setItem('correo',this.correo)
+    localStorage.setItem('numero',this.num)
+}
+ingresar(){
+  this.router.navigate(['pr'])
+  this.almacenar();
+}
 }

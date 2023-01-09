@@ -29,4 +29,7 @@ export class GymsharkComponent implements OnInit {
     this.router.navigate(['yg'])
   }
 
+  pagar(){
+    this.router.navigate(['f'])
+  }
 }

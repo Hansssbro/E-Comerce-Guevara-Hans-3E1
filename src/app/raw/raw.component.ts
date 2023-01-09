@@ -29,4 +29,8 @@ export class RawComponent implements OnInit {
   }
 
 
+  pagar(){
+    this.router.navigate(['f'])
+  }
+  
 }

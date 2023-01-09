@@ -1,0 +1,67 @@
+.cabecera{
+    text-align:right;
+    padding: 20px; margin: auto;
+    background-color: black;
+    margin: -20px;
+    padding: 15px;
+
+}
+#hprincipal{
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+
+}
+#logos{
+    text-align: right;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.login-section{
+    background-color: rgb(188, 225, 225);
+    margin: 500px 500px 500px;
+}
+
+.pp{
+    background-color: rgb(250, 250, 250);
+}
+
+#ingreso{
+font-size: 50px;
+}
+
+#complete{
+font-size: 25px;
+}
+
+.tn{
+    text-align: center;
+    background-color: rgb(134, 135, 34);
+    font-style: italic;   
+}
+.f{
+    align-items: center;
+    align-tracks: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(232, 201, 75);
+    border: .5px;
+    padding: .5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+    font-style: italic;
+}
+.botonenviar{
+    align-content: center;
+    border-radius: 10px;
+    font-style: italic;
+}

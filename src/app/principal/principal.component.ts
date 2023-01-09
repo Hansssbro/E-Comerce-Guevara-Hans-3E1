@@ -10,9 +10,21 @@ export class PrincipalComponent implements OnInit {
 
   constructor(private router: Router) { }
 
+  nombre: any
+  apellido:any
+  correo:any
+  numero:any
+
   ngOnInit(): void {
+    this.bvv
   }
 
+    bvv(){
+      this.nombre = localStorage.getItem('nombre')
+      this.apellido = localStorage.getItem('apellido')
+      this.correo = localStorage.getItem('correo')
+      this.numero = localStorage.getItem('numero')
+    }
   goolp(){
     this.router.navigate(['olp'])
   }
