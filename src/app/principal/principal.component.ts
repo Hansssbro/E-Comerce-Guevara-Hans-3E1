@@ -17,7 +17,7 @@ export class PrincipalComponent implements OnInit {
     this.router.navigate(['olp'])
   }
 
-  googs(){
+  gogs(){
     this.router.navigate(['gs'])
   }
   
