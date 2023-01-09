@@ -9,6 +9,7 @@ import { YounglaComponent } from './youngla/youngla.component';
 import { GymsharkComponent } from './gymshark/gymshark.component';
 import { RawComponent } from './raw/raw.component';
 import { LoginComponent } from './login/login.component';
+import { FacturaComponent } from './factura/factura.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './login/login.component';
     YounglaComponent,
     GymsharkComponent,
     RawComponent,
-    LoginComponent
+    LoginComponent,
+    FacturaComponent
   ],
   imports: [
     BrowserModule,

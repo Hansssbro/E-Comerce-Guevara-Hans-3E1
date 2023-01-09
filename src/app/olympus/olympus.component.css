@@ -45,3 +45,15 @@ head a:hover{
 #container img{
     text-align: left;
 }
+
+#container producto{
+   text-align: right; 
+   color: whitesmoke;
+   font-size: 5px;
+}
+
+#container precio{
+    text-align: right;
+    color: white;
+    font-size: 3px;
+}
