@@ -1,32 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    
+}
+
 .cabecera{
+    text-align:right;
+    padding: 20px; margin: auto;
     background-color: black;
     margin: -20px;
     padding: 15px;
 
 }
-.hprincipal{
-    text-align: center;
+#hprincipal{
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 25px;
+
 }
-.imgg{
-    padding: auto;
-    align-items: flex-start;
+#logos{
+    text-align: right;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
 }
-.im{
-    gap: 1rem;
-    margin-bottom: -2rem;
-}
+
 .catalogo{
     padding: 25px 25px 25px 25px;
-    background-color: red;
+    background-color: rgba(255, 222, 124, 0.818);
     margin-top: 25px;
-    border-color: blueviolet;
+    border-color: rgb(255, 255, 255);
     border-width: 2px;
-    border-style: solid;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
-.nmc{
+#nmc{
     text-align: center;
 }
 #pie{
@@ -34,4 +51,18 @@
 }
 #bolp{
     
+}
+button{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(190, 185, 77);
+    
+}
+button:hover{
+    background-color: rgb(116, 111, 18);
 }
