@@ -16,7 +16,7 @@ export class YounglaComponent implements OnInit {
     this.router.navigate(['pr'])
   }
 
-  googs(){
+  gogs(){
     this.router.navigate(['gs'])
   }
   
