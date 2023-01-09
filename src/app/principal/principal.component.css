@@ -48,6 +48,12 @@ h2{
 .catalogo:hover{
     background-color: rgba(147, 128, 70, 0.818);
 }
+#ctolp{
+    display: -ms-flexbox
+}
+#ctyg{
+    
+}
 #nmc{
     text-align: center;
 }
