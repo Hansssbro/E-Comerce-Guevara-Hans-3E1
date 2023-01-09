@@ -8,6 +8,7 @@ import { OlympusComponent } from './olympus/olympus.component';
 import { YounglaComponent } from './youngla/youngla.component';
 import { GymsharkComponent } from './gymshark/gymshark.component';
 import { RawComponent } from './raw/raw.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RawComponent } from './raw/raw.component';
     OlympusComponent,
     YounglaComponent,
     GymsharkComponent,
-    RawComponent
+    RawComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
