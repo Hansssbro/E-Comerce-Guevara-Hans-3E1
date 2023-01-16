@@ -31,8 +31,29 @@ head a:hover{
 }
 
 #container{
+   
+    padding: 25px 25px 25px 25px;
+    background-color: rgba(255, 222, 124, 0.818);
+    margin-top: 25px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-radius: 10px;
     
-    background-color: rgb(210, 214, 127);
-    margin: 30px;
-    padding: auto;
+    margin: 25px 1000px 25px;
+    align-items: center;
+}
+#container img{
+    text-align: left;
+}
+
+#container producto{
+   text-align: right; 
+   color: whitesmoke;
+   font-size: 5px;
+}
+
+#container precio{
+    text-align: right;
+    color: white;
+    font-size: 3px;
 }

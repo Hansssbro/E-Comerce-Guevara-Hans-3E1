@@ -207,7 +207,16 @@ button:hover{
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
-  
+
+  .table{
+    align-self: center;
+    margin-left: 40px;
+  }
+  .ig{
+    width: 5%;
+    height:fit-content;
+
+  }
   @charset "UTF-8";/*!
    * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors

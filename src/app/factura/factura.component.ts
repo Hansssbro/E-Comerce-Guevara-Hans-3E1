@@ -9,7 +9,18 @@ export class FacturaComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  nombre: any
+  apellido:any
+  correo:any
+  numero:any
 
+  ngOnInit(): void {
+    this.factura()
+  }
+  factura (){
+    this.nombre = localStorage.getItem('nombre')
+    this.apellido = localStorage.getItem('apellido')
+    this.correo = localStorage.getItem('correo')
+    this.numero = localStorage.getItem('numero')
+      }
 }

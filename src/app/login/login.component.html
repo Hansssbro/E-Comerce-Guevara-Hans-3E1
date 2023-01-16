@@ -17,48 +17,31 @@
     </header>
 
     <main class="login-section" id="login-section">
-        <div>
-            <p id="ingreso">
-                Usuario :
-            </p>
-            <p id="complete" >
 
-            </p>
+        <div class="f">
+            <p>Ingrese sus nombres</p>
+            <input type="text" [(ngModel)]="nombre">
+            <p>Ingrese sus apellidos</p>
+            <input type="text" [(ngModel)]="apellido">
+            <p>Ingrese su correo</p>
+            <input type="email" [(ngModel)]="correo">
+            <p>Ingrese su contraseña</p>
+            <input type="password" [(ngModel)]="contra">
             <br>
-            <p id="ingreso">
-                Contraseña :
-            </p>
-            <p id="complete" >
+            <p>Ingrese su numero de celular:</p>
+            <input type="text" [(ngModel)]="num">
+            <br><br>
+            <div *ngIf="correo != 'hansguece2005@gmail.com'; else correcto"> 
+                <button class="botonenviar" (click)="no()" >ENVIAR</button>
+              </div>
+              <ng-template #correcto>
+                <button class="botonenviar" (click)="ingresar()" >ENVIAR</button>
+              </ng-template>              
 
-            </p>
-            <button (click)="ingresar()" > INGRESAR</button>
         </div>
+    
+    
     </main>
 
-    <footer id="pie">
-        <h2 class="rd">Redes Sociales Marcas</h2>
-        <form action="https://instagram.com/olympus.team.ec?igshid=OGQ2MjdiOTE=" class="o">
-            <button>
-                olp
-            </button>
-        </form>
-        <form action="https://instagram.com/youngla?igshid=OGQ2MjdiOTE=
-        " class="y">
-            <button>
-                YOUNGLA
-            </button>
-        </form>
-        <form action="https://instagram.com/gymshark?igshid=OGQ2MjdiOTE=" class="g">
-            <button>
-                GYM SHARK
-            </button>
-        </form>
-        <form action="https://instagram.com/getrawnutrition?igshid=OGQ2MjdiOTE=" class="r">
-            <button>
-                RAW
-            </button>
-        </form>
-        <form action="https://instagram.com/getrawnutrition?igshid=OGQ2MjdiOTE=" class="r">
-        </form>
-    </footer>
+
 </body>

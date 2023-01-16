@@ -30,4 +30,7 @@ ingresar(){
   this.router.navigate(['pr'])
   this.almacenar();
 }
+no(){
+  this.router.navigate(['n'])
+}
 }

@@ -7,7 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./olympus.component.css']
 })
 export class OlympusComponent implements OnInit {
-
+  nam: any
+  p:any
   constructor(private router: Router) { }
 
   ngOnInit(): void {
@@ -31,5 +32,15 @@ export class OlympusComponent implements OnInit {
 
   pagar(){
     this.router.navigate(['f'])
+  }
+
+  nm(){
+    this.nam=localStorage.setItem('CAMISETA','Producto')
+  }
+  precio(){
+    this.p=localStorage.setItem('$18.50','Precio')
+  }
+  carr(){
+    this.router.navigate(['c'])
   }
 }

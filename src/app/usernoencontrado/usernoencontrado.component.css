@@ -1,0 +1,57 @@
+.cabecera{
+    text-align:right;
+    padding: 20px; margin: auto;
+    background-color: black;
+    margin: -20px;
+    padding: 15px;
+
+}
+#hprincipal{
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+
+}
+#logos{
+    text-align: right;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.login-section{
+    background-color: rgb(188, 225, 225);
+    margin: 500px 500px 500px;
+}
+
+.pp{
+    background-color: rgb(250, 250, 250);
+}
+
+
+#no{
+    font-size: 150px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 150px 50px 150px;
+    margin: 150 px 50px 150px ;
+}
+.r{
+    background-color: rgb(57, 50, 50);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-content: center;    
+    margin-right: auto ;
+    margin-left: auto;
+    font-size: 2.5em;
+    height: 150px;
+    width: 550px;
+    
+}
